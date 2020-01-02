@@ -20,3 +20,6 @@ zuul:
     es:
       path: /es/**
       serviceId: ES-SERVICE
+    page:
+      path: /page/**
+      serviceId: PAGE-SERVICE
