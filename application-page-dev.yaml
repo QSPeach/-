@@ -1,0 +1,14 @@
+server:
+  port: 9007
+
+spring:
+  datasource:
+    url: jdbc:mysql:///hrm-page?useSSL=false&useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+hrm:
+  swagger:
+    title: 页面静态化管理服务
+    description: 页面静态化管理服务接口
+feign:
+  hystrix:
+    enabled: true
